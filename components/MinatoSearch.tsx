@@ -79,11 +79,11 @@ export default function MinatoSearch() {
               className="pl-10 pr-4 py-6 w-full rounded-full border-2 border-purple-400 focus:outline-none focus:border-purple-500"
             />
           </div>
-          <div className="flex justify-center space-x-4 mt-4">
+          <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-4 space-y-2 sm:space-y-0 mt-4">
             <span className="bg-pink-100 text-purple-800 px-3 py-1 rounded-full text-sm">best tacos in sf</span>
             <span className="bg-pink-100 text-purple-800 px-3 py-1 rounded-full text-sm">what is there to do in austin tx</span>
-            <span className="bg-pink-100 text-purple-800 px-3 py-1 rounded-full text-sm">is it worth upgrading to the iphone 16 pro?</span>
-          </div>
+            <span className="bg-pink-100 text-purple-800 px-3 py-1 rounded-full text-sm whitespace-nowrap">is it worth upgrading to the iphone 16 pro?</span>
+           </div>
           <footer className="mt-28 flex flex-col items-center justify-center text-gray-600">
             <span className='mt-2'>Powered By Minato.ai © 2024</span>
             <div className='mt-2'>
